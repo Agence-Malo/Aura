@@ -2,20 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right top, #f6cfac, #f6bf9e, #f6af95, #f69e8f, #f38d8d, #f48797, #f282a2, #ed7fae, #ea87c4, #e391d9, #d79cec, #c8a7fe);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "Chemre_italic";
+    font-weight: auto;
+    font-style: normal;
+    src: url("/fonts/Chemre_Italic.otf") format("truetype");
+}
+@font-face {
+    font-family: "FuturaPT_Book";
+    font-weight: auto;
+    font-style: normal;
+    src: url("/fonts/FuturaPT-Book.ttf") format("truetype");
 }

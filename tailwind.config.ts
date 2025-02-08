@@ -12,7 +12,18 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        Chemre_italic: ['Chemre_italic', 'sans-serif'],
+        FuturaPT_book: ['FuturaPT_book', 'sans-serif'],
+      },
+      fontSize: {
+        max : '7rem',
+        title : '3rem',
+        subtitle : '1.5rem',
+        normal : '1rem',
+      },
     },
   },
+
   plugins: [],
 } satisfies Config;
