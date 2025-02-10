@@ -6,6 +6,21 @@ const Hero = () => {
     return (
         <div className={"flex flex-col justify-end items-center h-[90vh] md:h-screen text-white"}>
 
+            {/* Background video */}
+            <video
+                className={
+                    "w-full h-[100vh] md:h-screen inset-0 object-cover object-[80%_0] md:object-center absolute -z-20"
+                }
+                autoPlay
+                muted
+                preload={"none"}
+                playsInline
+                loop
+            >
+                <source src={"/video/Video_Aura_compress.webm"} type={"video/webm"} />
+            </video>
+
+
             {/* Partie 1 - texte + logo*/}
             <div className={"text-center w-[100wh] h-full flex items-center justify-center flex-col gap-2"}>
                 <h1 className={"font-Chemre_italic text-[clamp(2.5rem,7vw,8rem)]"}>LAUNCHING SOON!</h1>
