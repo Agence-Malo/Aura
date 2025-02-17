@@ -24,3 +24,7 @@ body {
     font-style: normal;
     src: url("/fonts/FuturaPT-Book.ttf") format("truetype");
 }
+
+.custom-popup p {
+    color: black;
+}
