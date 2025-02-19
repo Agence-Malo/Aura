@@ -98,7 +98,7 @@ const Hero = () => {
             </form>
 
             <h3 className={'font-FuturaPT_book text-normal'}>
-                <a href="#" className="underline hover:text-[#eba698] transition duration-300">
+                <a href="mailto:contact@emmazepter.com" className="underline hover:text-[#eba698] transition duration-300">
                     Press & Influencers - Contact Us
                 </a>
             </h3>

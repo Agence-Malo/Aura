@@ -28,10 +28,10 @@ const Popup: React.FC<PopupProps> = ({onClose, onConfirm }) => {
                 <button className="absolute top-3 right-3 text-black" onClick={onClose}> <X className={"size-[2rem]"}/> </button>
 
                 {/* Message */}
-                <p className="text-black font-FuturaPT_book text-[1.75rem] mb-4">
+                <p className="text-black font-FuturaPT_book text-[1.25rem] mb-4">
                     Thank you for signing up! ✨
                 </p>
-                <p className={"text-black font-FuturaPT_book text-[1.75rem] mb-4"}>
+                <p className={"text-black font-FuturaPT_book text-[1.25rem] mb-4"}>
                     You’re now on the list for exclusive early access.
                     A new experience is on the horizon. Stay tuned, you
                     won’t want to miss this.
@@ -41,7 +41,7 @@ const Popup: React.FC<PopupProps> = ({onClose, onConfirm }) => {
                 <div className="mt-4">
                     {onConfirm && (
                         <button
-                            className="text-white text-[1.75rem] font-FuturaPT_book bg-[#eba698] px-4 py-2.5"
+                            className="text-white text-[1.25rem] font-FuturaPT_book bg-[#eba698] px-4 py-2.5"
                             onClick={copyToClipboard}
                             type={"button"}
                         >
